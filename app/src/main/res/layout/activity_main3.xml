@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/level1"
+    android:layout_height="match_parent"
+    tools:context="vishal.go.Main3Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Level 1" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:background="@drawable/round_btn"
+        android:onClick="click1"
+        android:text="        "
+        android:layout_above="@+id/button3"
+        android:layout_alignEnd="@+id/button2"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="17dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="130sp"
+        android:background="@drawable/round_btn"
+        android:layout_height="130sp"
+        android:onClick="click2"
+        android:text="        "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="68dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:onClick="click3"
+        android:background="@drawable/round_btn"
+        android:text="        "
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="39dp" />
+</RelativeLayout>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/level3"
+    tools:context="vishal.go.Main5Activity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40sp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="Level 3" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:onClick="click8"
+        android:background="@drawable/round_btn"
+        android:text="        "
+        android:layout_alignTop="@+id/button12"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="83dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="130sp"
+        android:background="@drawable/round_btn"
+        android:layout_height="130sp"
+        android:onClick="click9"
+        android:text="        "
+        android:layout_below="@+id/button11"
+        android:layout_toEndOf="@+id/textView"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="130sp"
+        android:background="@drawable/round_btn"
+        android:onClick="click10"
+        android:layout_height="130sp"
+        android:text="        "
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="46dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:background="@drawable/round_btn"
+        android:text="        "
+        android:onClick="click11"
+        android:layout_below="@+id/button12"
+        android:layout_toEndOf="@+id/button8"
+        android:layout_marginTop="62dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="130sp"
+        android:layout_height="130sp"
+        android:onClick="click12"
+        android:background="@drawable/round_btn"
+        android:text="        "
+        android:layout_below="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="13dp" />
+
+
+</RelativeLayout>
